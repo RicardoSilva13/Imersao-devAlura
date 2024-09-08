@@ -34,14 +34,21 @@ body {
 
 /* Estiliza os títulos h1 */
 h1 {
+    background-image: linear-gradient(to right, #0b72d983, #F2F2F2);
+    border: 1px solid rgba(255, 255, 255, 0.656);
+    padding: 8px 16px;
     font-size: 2.5rem;
-    /* Tamanho da fonte */
     color: #222831;
-    /* Cor do texto */
     text-align: center;
-    /* Alinha o texto ao centro */
     letter-spacing: 0.4rem;
-    /* Espaçamento entre letras */
+    box-shadow: 0px 0px 6px #ffffffdc;
+    border-radius: 16px;
+}
+section > p {
+    background-color: #2b4054;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 16px;
 }
 
 /* Estiliza as seções da página */
@@ -123,7 +130,7 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF;
+    background-image: linear-gradient(to right,#8c0707b3, #d91c0bbb, #d9a036c2, #f2e85cbe);
     /* Cor de fundo dos itens */
     border-radius: 0.6rem;
     /* Borda arredondada */
@@ -136,18 +143,19 @@ section button:hover {
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
-.item-resultado h2 {
-    font-size: 1.5rem;
+.item-resultado p {
+    font-size: 1.2rem;
     /* Tamanho da fonte */
-    color: #222831;
+    color: white;
     /* Cor do texto */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none;
+    font-size: 1.5rem;
     /* Remove o sublinhado padrão dos links */
-    color: #203b56;
+    color: white;
     /* Cor do texto dos links */
 }
 

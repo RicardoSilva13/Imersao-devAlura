@@ -38,5 +38,15 @@ let dados = [
       tropa: "Bebê Dragão",
       descricao: "O Bebê Dragão é uma versão menor e mais rápida do Dragão. Ele é ideal para atacar alvos aéreos e causar danos em área. Quando não está perto de outras unidades aéreas, os Bebês Dragões ficam furiosos e ganham bônus de dano e velocidade de ataque ",
       link: "https://clashofclans.fandom.com/wiki/Baby_Dragon"
-    }
+    },
+    {
+      tropa: "Gigante",
+      descricao: "O Gigante é uma tropa resistente que ataca construções defensivas. Sua alta vida o torna ideal para distrair defesas enquanto outras tropas as destroem.",
+      link: "https://clashofclans.fandom.com/wiki/Giant"
+    },
+    {
+      tropa: "Balão",
+      descricao: "O Balão é uma tropa aérea que ataca construções defensivas. Ele é lento, mas causa muito dano quando atinge seu alvo.",
+      link: "https://clashofclans.fandom.com/wiki/Balloon"
+  },
   ];
